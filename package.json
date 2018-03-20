@@ -1,0 +1,27 @@
+{
+  "name": "project-find-filter-defaults",
+  "main": "./lib/project-find-filter-defaults",
+  "version": "1.0.0",
+  "description": "Opens the 'Project find' pane, pre-fills the File/Directory pattern field with data set in package settings.",
+  "keywords": [
+    "project", "find", "defaults", "filter"
+  ],
+  "activationCommands": {
+    "atom-workspace": "project-find-filter-defaults:show"
+  },
+  "repository": "https://github.com/atom/project-find-filter-defaults",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "fileDirectoryFilter": {
+      "type": "string",
+      "title": "File/Directory Filter",
+      "default": "!node_modules",
+      "description": "What ever you enter in this field will be pre-populated into the Project Find Dialog File/Directory Filter Field"
+    }
+  }
+}
