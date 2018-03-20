@@ -9,7 +9,7 @@
   "activationCommands": {
     "atom-workspace": "project-find-filter-defaults:show"
   },
-  "repository": "https://github.com/atom/project-find-filter-defaults",
+  "repository": "https://github.com/brycefranzen/project-find-filter-defaults",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
