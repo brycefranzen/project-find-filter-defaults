@@ -1,10 +1,13 @@
 {
   "name": "project-find-filter-defaults",
   "main": "./lib/project-find-filter-defaults",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Opens the 'Project find' pane, pre-fills the File/Directory pattern field with data set in package settings.",
   "keywords": [
-    "project", "find", "defaults", "filter"
+    "project",
+    "find",
+    "defaults",
+    "filter"
   ],
   "activationCommands": {
     "atom-workspace": "project-find-filter-defaults:show"
@@ -14,8 +17,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "configSchema": {
     "fileDirectoryFilter": {
       "type": "string",
